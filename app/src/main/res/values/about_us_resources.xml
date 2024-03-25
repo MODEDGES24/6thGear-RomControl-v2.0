@@ -34,9 +34,9 @@
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item></item>
+        <item>https://https://sites.google.com/view/modedges/home/</item>
+        <item></item>
     </string-array>
 
 
@@ -48,14 +48,12 @@
         <item>@drawable/icon_1</item>
     </array>
     <string-array name="about_team_names">
-        <item>Master Yoda - wise and talented lead developer</item>
-        <item>Luke Skywalker - one handed theme master</item>
-        <item>Darth Vader - dark theme master</item>
+        <item>MODEDGED</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item></item>
+        <item>https://https://sites.google.com/view/modedges/home/</item>
+        <item></item>
     </string-array>
 
 
@@ -70,19 +68,14 @@
         <item>@drawable/icon_5</item>
     </array>
     <string-array name="about_credits_names">
-        <item>Star Trek - for being ultimately better than Star Wars</item>
-        <item>Jean-Luc Picard - for making us crave hot earl-grey tea even in the middle of the summer</item>
-        <item>Data - for running on the best rom. Google, we still are waiting for THAT android version</item>
-        <item>Janeway - for being a normal person and drinking black coffee</item>
-        <item>Q - for reminding us that you can live forever and still look great</item>
-        <item>Worf - for teaching us to love Klingons. It was NOT easy</item>
+        <item>MODEDGES</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
     </string-array>
 </resources>

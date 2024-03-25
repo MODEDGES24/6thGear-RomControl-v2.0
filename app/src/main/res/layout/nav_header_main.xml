@@ -19,25 +19,24 @@
              >
 
 
-    <ImageView
+    <com.wubydax.romcontrol.v2.utils.AnimateRomLogo
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/header"/>
+        android:src="@drawable/animated_romlogo"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/protective_gradient_bottom"/>
+        android:background="#00000000"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:text="6thGear Rom Control"
+        android:text=""
         android:textColor="@android:color/white"
         android:layout_margin="10dp"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"/>
 
 </FrameLayout>

@@ -44,7 +44,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             wubydax:rebootColor="@color/colorAccent"
-            wubydax:rebootText="@string/reboot_device_text"/>
+            wubydax:rebootText="@string/reboot_device_text" />
 
         <com.wubydax.romcontrol.v2.views.RebootView
             android:id="@+id/rebootRecovery"

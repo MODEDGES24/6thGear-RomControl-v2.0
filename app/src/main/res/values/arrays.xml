@@ -13,7 +13,6 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-
     <string-array name="test_list_entries">
         <item>One</item>
         <item>Two</item>
@@ -34,7 +33,6 @@
         <item>Backup data</item>
         <item>Restore data</item>
     </string-array>
-
     <string-array name="thumbnail_items">
         <item>Icon 1</item>
         <item>Icon 2</item>
@@ -47,7 +45,6 @@
         <item>@drawable/icon_6</item>
         <item>@drawable/icon_5</item>
     </array>
-
     <string-array name="custom_bg_type_entries">
         <item>Image</item>
         <item>Solid color</item>
@@ -63,22 +60,516 @@
         <item>Bottom to top</item>
         <item>Left to right</item>
         <item>Right to left</item>
-
     </string-array>
     <string-array name="gradient_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-
     </string-array>
-
     <string-array name="crop_entries">
         <item>Center crop</item>
         <item>Center inside</item>
         <item>Fit XY</item>
     </string-array>
     <string-array name="crop_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="launcher_gesture_entries">
+        <item>Shutdown Screen</item>
+        <item>Reboot Menu Extended</item>
+        <item>Recent Apps</item>
+        <item>Volume +</item>
+        <item>Volume -</item>
+        <item>Marker</item>
+        <item>Search with Google</item>
+        <item>Sound / Vibration / Mute: Sound Mode</item>
+        <item>Torch</item>
+        <item>Screenshot</item>
+        <item>Notification</item>
+        <item>Enable / Disable Wi-Fi</item>
+        <item>Enable / Disable Mobile</item>
+        <item>Enable / Disable Bluetooth</item>
+        <item>Clean Memory</item>
+        <item>Disabled</item>
+    </string-array>
+    <string-array name="launcher_gesture_values">
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>23</item>
+        <item>999</item>
+    </string-array>
+    <string-array name="battery_bar_entries">
+        <item>Hide</item>
+        <item>Show</item>
+    </string-array>
+    <string-array name="battery_bar_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="battery_bar_style_entries">
+        <item>Regular</item>
+        <item>Center-mirrored</item>
+    </string-array>
+    <string-array name="battery_bar_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="battery_bar_thickness_entries">
+        <item>1 dp</item>
+        <item>2 dp</item>
+        <item>3 dp</item>
+        <item>4 dp</item>
+    </string-array>
+    <string-array name="battery_bar_thickness_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="quick_qs_button_entries">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="quick_qs_button_landscape_entries">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="quick_qs_button_landscape_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="quick_qs_button_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="data_usage_gravity_entries">
+        <item>Right</item>
+        <item>Center</item>
+        <item>Left</item>
+    </string-array>
+    <string-array name="data_usage_gravity_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="data_usage_text_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold italic</item>
+    </string-array>
+    <string-array name="data_usage_text_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <array name="notification_bg_select_drawables">
+        <item>@drawable/divider_style_0</item>
+        <item>@drawable/notification_material_bg_1</item>
+        <item>@drawable/notification_material_bg_2</item>
+        <item>@drawable/notification_material_bg_3</item>
+        <item>@drawable/notification_material_bg_4</item>
+        <item>@drawable/notification_material_bg_5</item>
+        <item>@drawable/notification_material_bg_6</item>
+        <item>@drawable/notification_material_bg_7</item>
+    </array>
+    <string-array name="notification_bg_select_entries">
+        <item>Default</item>
+        <item>Style 1</item>
+        <item>Style 2</item>
+        <item>Style 3</item>
+        <item>Style 4</item>
+        <item>Style 5</item>
+        <item>Style 6</item>
+        <item>Style 7</item>
+    </string-array>
+    <string-array name="notification_bg_select_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="recents_crop_entries">
+        <item>Center</item>
+        <item>Center inside</item>
+        <item>Set XY</item>
+    </string-array>
+    <string-array name="recents_crop_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="gradient_entries1">
+        <item>From top to bottom</item>
+        <item>From bottom to top</item>
+        <item>From left to right</item>
+        <item>Right to left</item>
+    </string-array>
+    <string-array name="gradient_values1">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="tile_bg_options">
+        <item>Stock colored</item>
+        <item>Custom icon</item>
+        <item>Custom icon from gallery</item>
+    </string-array>
+    <string-array name="tile_bg_values">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="tile_bg_predefined_icons">
+        <item>Style 1</item>
+        <item>Style 2</item>
+        <item>Style 3</item>
+        <item>Style 4</item>
+        <item>Style 5</item>
+        <item>Style 6</item>
+        <item>Style 7</item>
+        <item>Style 8</item>
+        <item>Style 9</item>
+        <item>Style 10</item>
+        <item>Style 11</item>
+        <item>Style 12</item>
+        <item>Style 13</item>
+        <item>Style 14</item>
+        <item>Style 15</item>
+        <item>Style 16</item>
+        <item>Style 17</item>
+        <item>Style 18</item>
+        <item>Style 19</item>
+        <item>Style 20</item>
+        <item>Style 21</item>
+        <item>Style 22</item>
+        <item>Style 23</item>
+        <item>Style 24</item>
+        <item>Style 25</item>
+        <item>Style 26</item>
+    </string-array>
+    <string-array name="tile_bg_predefined_values">
+        <item>tbg_1</item>
+        <item>tbg_2</item>
+        <item>tbg_3</item>
+        <item>tbg_4</item>
+        <item>tbg_5</item>
+        <item>tbg_6</item>
+        <item>tbg_7</item>
+        <item>tbg_8</item>
+        <item>tbg_9</item>
+        <item>tbg_10</item>
+        <item>tbg_11</item>
+        <item>tbg_12</item>
+        <item>tbg_13</item>
+        <item>tbg_14</item>
+        <item>tbg_15</item>
+        <item>tbg_16</item>
+        <item>tbg_17</item>
+        <item>tbg_18</item>
+        <item>tbg_19</item>
+        <item>tbg_20</item>
+        <item>tbg_21</item>
+        <item>tbg_22</item>
+        <item>tbg_23</item>
+        <item>tbg_24</item>
+        <item>tbg_25</item>
+        <item>tbg_26</item>
+    </string-array>
+    <array name="tile_bg_gallery">
+        <item>@drawable/tbg_1</item>
+        <item>@drawable/tbg_2</item>
+        <item>@drawable/tbg_3</item>
+        <item>@drawable/tbg_4</item>
+        <item>@drawable/tbg_5</item>
+        <item>@drawable/tbg_6</item>
+        <item>@drawable/tbg_7</item>
+        <item>@drawable/tbg_8</item>
+        <item>@drawable/tbg_9</item>
+        <item>@drawable/tbg_10</item>
+        <item>@drawable/tbg_11</item>
+        <item>@drawable/tbg_12</item>
+        <item>@drawable/tbg_13</item>
+        <item>@drawable/tbg_14</item>
+        <item>@drawable/tbg_15</item>
+        <item>@drawable/tbg_16</item>
+        <item>@drawable/tbg_17</item>
+        <item>@drawable/tbg_18</item>
+        <item>@drawable/tbg_19</item>
+        <item>@drawable/tbg_20</item>
+        <item>@drawable/tbg_21</item>
+        <item>@drawable/tbg_22</item>
+        <item>@drawable/tbg_23</item>
+        <item>@drawable/tbg_24</item>
+        <item>@drawable/tbg_25</item>
+        <item>@drawable/tbg_26</item>
+    </array>
+    <string-array name = "common_font_entries">
+        <item> Default </item>
+        <item> Abductionsmall </item>
+        <item> ABEAKRG </item>
+        <item> AddisAbaba </item>
+        <item> AGentleTouch </item>
+        <item> AirmoleStripe </item>
+        <item> Aller </item>
+        <item> AndroidClock </item>
+        <item> Arial </item>
+        <item> Arial_RB </item>
+        <item> ArrayBold </item>
+        <item> Astandardbold </item>
+        <item> Attic </item>
+        <item> Barmeno105 </item>
+        <item> Bauhaus </item>
+        <item> Beau_Sans_Pro_Book </item>
+        <item> beautifuleverytime </item>
+        <item> Belligerentbold </item>
+        <item> BlackChancery </item>
+        <item> Bluehigh </item>
+        <item> Bluehighbold </item>
+        <item> BubbleLetters </item>
+        <item> Cantaneobold </item>
+        <item> Caprica </item>
+        <item> Cartoon </item>
+        <item> caviardreams_bold </item>
+        <item> Celtic </item>
+        <item> comicsansms </item>
+        <item> Cooljazz </item>
+        <item> Darkromanticism </item>
+        <item> Dustismobold </item>
+        <item> FeastOfFlesh </item>
+        <item> Felipe </item>
+        <item> GalantNormal </item>
+        <item> Gezoe </item>
+        <item> GillSansMTItalic </item>
+        <item> HelveticaNeueCE55Roman </item>
+        <item> Jaramondbold </item>
+        <item> Laneposhbold </item>
+        <item> Lauren </item>
+        <item> Melonio </item>
+        <item> Metal </item>
+        <item> MotleyCrue </item>
+        <item> NokiaPure </item>
+        <item> Petermorgan </item>
+        <item> Piratebold </item>
+        <item> Questbold </item>
+        <item> Roboto </item>
+        <item> Roboto-Bold </item>
+        <item> Rosemary </item>
+        <item> Sansationbold </item>
+        <item> Segoe </item>
+    </string-array>
+    <string-array name = "common_font_values">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+        <item> 11 </item>
+        <item> 12 </item>
+        <item> 13 </item>
+        <item> 14 </item>
+        <item> 15 </item>
+        <item> 16 </item>
+        <item> 17 </item>
+        <item> 18 </item>
+        <item> 19 </item>
+        <item> 20 </item>
+        <item> 21 </item>
+        <item> 22 </item>
+        <item> 23 </item>
+        <item> 24 </item>
+        <item> 25 </item>
+        <item> 26 </item>
+        <item> 27 </item>
+        <item> 28 </item>
+        <item> 29 </item>
+        <item> 30 </item>
+        <item> 31 </item>
+        <item> 32 </item>
+        <item> 33 </item>
+        <item> 34 </item>
+        <item> 35 </item>
+        <item> 36 </item>
+        <item> 37 </item>
+        <item> 38 </item>
+        <item> 39 </item>
+        <item> 40 </item>
+        <item> 41 </item>
+        <item> 42 </item>
+        <item> 43 </item>
+        <item> 44 </item>
+        <item> 45 </item>
+        <item> 46 </item>
+        <item> 47 </item>
+        <item> 48 </item>
+        <item> 49 </item>
+        <item> 50 </item>
+        <item> 51 </item>
+    </string-array>
+    <string-array name="statusbar_alarm_icon_drawables">
+        <item>@drawable/no_icon</item>
+        <item>@drawable/default_icon</item>
+        <item>@drawable/stat_sys_alarm_1</item>
+        <item>@drawable/stat_sys_alarm_2</item>
+        <item>@drawable/stat_sys_alarm_3</item>
+        <item>@drawable/stat_sys_alarm_4</item>
+        <item>@drawable/stat_sys_alarm_5</item>
+        <item>@drawable/stat_sys_alarm_6</item>
+        <item>@drawable/stat_sys_alarm_7</item>
+    </string-array>
+    <string-array name="statusbar_alarm_icon_entries">
+        <item>Icon is hidden</item>
+        <item>Stock</item>
+        <item>Style 1</item>
+        <item>Style 2</item>
+        <item>Style 3</item>
+        <item>Style 4</item>
+        <item>Style 5</item>
+        <item>Style 6</item>
+        <item>Style 7</item>
+    </string-array>
+    <string-array name="statusbar_alarm_icon_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <array name="statusbar_gps_icon_drawables">
+        <item>@drawable/no_icon</item>
+        <item>@drawable/default_icon</item>
+        <item>@drawable/stat_sys_location1</item>
+        <item>@drawable/stat_sys_location2</item>
+        <item>@drawable/stat_sys_location3</item>
+        <item>@drawable/stat_sys_location4</item>
+        <item>@drawable/stat_sys_location5</item>
+        <item>@drawable/stat_sys_location6</item>
+        <item>@drawable/stat_sys_location7</item>
+        <item>@drawable/stat_sys_location8</item>
+        <item>@drawable/stat_sys_location9</item>
+        <item>@drawable/stat_sys_location10</item>
+    </array>
+    <string-array name="statusbar_gps_icon_entries">
+        <item>Icon is hidden</item>
+        <item>Stock</item>
+        <item>Style 1</item>
+        <item>Style 2</item>
+        <item>Style 3</item>
+        <item>Style 4</item>
+        <item>Style 5</item>
+        <item>Style 6</item>
+        <item>Style 7</item>
+        <item>Style 8</item>
+        <item>Style 9</item>
+        <item>Style 10</item>
+    </string-array>
+    <string-array name="statusbar_gps_icon_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="status_bar_icon_scale_factor_entries">
+        <item>1.0 x 1 (Default)</item>
+        <item>1.1 x 1</item>
+        <item>1.2 x 1</item>
+        <item>1.3 x 1</item>
+        <item>1.4 x 1</item>
+        <item>1.5 x 1</item>
+        <item>1.6 x 1</item>
+        <item>1.7 x 1</item>
+        <item>1.8 x 1</item>
+        <item>1.9 x 1</item>
+        <item>2.0 x 1</item>
+    </string-array>
+    <string-array name="status_bar_icon_scale_factor_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="crop_entries1">
+        <item>Center</item>
+        <item>Center Inside</item>
+        <item>Stretch</item>
+    </string-array>
+    <string-array name="crop_values1">
         <item>0</item>
         <item>1</item>
         <item>2</item>
